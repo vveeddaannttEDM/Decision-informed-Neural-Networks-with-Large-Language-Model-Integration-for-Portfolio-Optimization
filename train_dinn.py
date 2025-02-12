@@ -80,6 +80,6 @@ train_data = {
     'target': torch.randn(100, num_assets)
 }
 
-# Initialize and Train the Model
+# Initialize and Train Model
 dinn_model = DINN(num_assets)
 train_dinn(dinn_model, train_data)
